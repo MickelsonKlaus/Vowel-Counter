@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Verdana;
+}
+
+h1 {
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+form input::placeholder{
+    text-transform: capitalize;
+}
+form button{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
