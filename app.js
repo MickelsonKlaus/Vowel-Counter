@@ -17,7 +17,7 @@ function vowelCounter(e) {
 
     (function() {
         for(i = 0; i < text.value.length; i++){
-            if(text.value.search(`${vowels[i]}`, "ig") > -1){
+            if(text.value.toLowerCase().search(`${vowels[i]}`, "ig") > -1){
                 arr.push(vowels[i])
                 counter++;
             }
